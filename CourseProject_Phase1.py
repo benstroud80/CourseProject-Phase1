@@ -5,13 +5,16 @@ def GetEmpName():
     empname = input("Enter employee name: ")
     return empname
 #for the next three functions, you need to convert the input to a float, e.g., varname = float(input('descripion of input:  '))
-#write the GetHoursWorked function
+def GetHoursWorked():
+    hours = float(input('hours: '))
+    return hours
+def GetHourlyRate():
+    hourlyrate = float(input('hourlyrate: '))
+    return hourlyrate
 
-
-#write the GetHourlyRate function
-
-
-# write the GetTaxRate function
+def GetTaxRate():
+    taxrate = float(input('taxrate: '))
+    return taxrate
 
 
 
